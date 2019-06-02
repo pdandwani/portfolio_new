@@ -1,19 +1,53 @@
 body{
     color:white;
     
+
+}
+.navbar{
+    color:black;
+    position:sticky;
+    top:0;
+    z-index:99;
+    background:rgb(10,23,234);
+}
+.navbar-nav>li {
+    
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float:right;
+}
+.academics{
+    font-family: 'Indie Flower', cursive;
+}
+.achieve{
+    font-family: 'Indie Flower', cursive;
+}
+.bold{
+    font-family: 'Abril Fatface', cursive;
+}
+.skills{
+    font-family: 'Pacifico', cursive;
 }
 .box{
     
     background:black;
+    background-size:cover;
+    background-repeat:no-repeat;
     background-attachment: fixed;
+
 }
 .boxeven{
     
     background:rgb(10,23,234);
     background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .boxodd{
-    background:rgb(0,0,0);
+    background-image:url("black.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
     background-attachment: fixed;
 }
 .img{
@@ -39,6 +73,9 @@ body{
         margin-top:1%;
         margin-bottom:1%;
     }
+    .hide{
+        display:none;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     .img{
@@ -47,6 +84,9 @@ body{
         margin-top:1%;
         margin-bottom:1%;
     }
+    .hide{
+        display:none;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .img{
@@ -54,6 +94,9 @@ body{
         height:auto;
         margin-top:1%;
         margin-bottom:1%;
+    }
+    .hide{
+        display:none;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1500px){
